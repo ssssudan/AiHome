@@ -16,7 +16,7 @@ class AccountActivity : AppCompatActivity() {
             val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
         }
-        binding.user1.setOnClickListener{
+        binding.alarmBtn.setOnClickListener{
             val intent = Intent(this, AlarmActivity::class.java)
             startActivity(intent)
         }
